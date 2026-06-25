@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Propiedades - Inmobiliaria Cúcuta</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <div class="brand" aria-label="INMOBILIARIA CÚCUTA">
+        <div class="brand-mark" aria-hidden="true">◆</div>
+        <div class="brand-text">
+          <div class="brand-title">INMOBILIARIA</div>
+          <div class="brand-subtitle">CÚCUTA</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav-link" href="home.html">Inicio</a>
+        <a class="nav-link" href="propiedades.html">Propiedades</a>
+        <a class="nav-link" href="invertir.html">Invertir</a>
+        <a class="nav-link" href="mapa.html">Mapa</a>
+        <a class="nav-link" href="nosotros.html">Nosotros</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </nav>
+
+      <a class="btn btn-accent" href="contacto.html">Agendar cita</a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" class="app" role="main"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">INMOBILIARIA CÚCUTA</div>
+        <p class="footer-text">Asesoría inmobiliaria enfocada en inversión y toma de decisiones con respaldo técnico.</p>
+      </div>
+      <div>
+        <div class="footer-title">Contacto</div>
+        <p class="footer-text">Cúcuta, Norte de Santander</p>
+        <p class="footer-text">+57 300 000 0000</p>
+        <p class="footer-text">contacto@inmobiliariacucuta.com</p>
+      </div>
+      <div>
+        <div class="footer-title">Redes</div>
+        <div class="footer-social">
+          <a href="#" class="chip">Instagram</a>
+          <a href="#" class="chip">Facebook</a>
+          <a href="#" class="chip">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">© <span id="year"></span> Inmobiliaria Cúcuta. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { renderPropiedades } from './js/pages/propiedades.js';
+
+    const appEl = document.getElementById('app');
+
+    // year
+    const y = document.getElementById('year');
+    if (y) y.textContent = String(new Date().getFullYear());
+
+    renderPropiedades(appEl);
+
+    // mobile nav
+    const btn = document.querySelector('[data-nav-toggle]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+
+        let mobileNav = document.querySelector('.mobile-nav');
+        if (!mobileNav) {
+          const nav = document.querySelector('.nav');
+          mobileNav = document.createElement('div');
+          mobileNav.className = 'mobile-nav';
+          mobileNav.setAttribute('role','navigation');
+          nav.parentElement.appendChild(mobileNav);
+          nav.querySelectorAll('a').forEach(a => mobileNav.appendChild(a.cloneNode(true)));
+        }
+        mobileNav.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
+
