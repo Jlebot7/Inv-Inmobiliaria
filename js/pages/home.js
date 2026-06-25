@@ -1,5 +1,5 @@
 export function renderHome(root){
-  const heroImg = 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=60';
+  const heroImg = 'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=60';
 
   root.innerHTML = `
     <div class="container">
