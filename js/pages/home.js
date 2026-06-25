@@ -1,5 +1,5 @@
 export function renderHome(root){
-  const heroImg = 'WhatsApp Image 2026-06-23 at 5.04.19 PM.jpeg';
+  const heroImg = 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=60';
 
   root.innerHTML = `
     <div class="container">

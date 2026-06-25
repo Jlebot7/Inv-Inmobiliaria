@@ -9,7 +9,7 @@ export const mockProperties = [
     baños: 2,
     areaM2: 68,
     priceCOP: 240000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.11.45 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=60'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const mockProperties = [
     baños: 2,
     areaM2: 120,
     priceCOP: 410000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.16.16 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1200&q=60'
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const mockProperties = [
     baños: 1,
     areaM2: 55,
     priceCOP: 180000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.11.45 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1200&q=60'
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const mockProperties = [
     baños: 2,
     areaM2: 92,
     priceCOP: 360000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.04.19 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1200&q=60'
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const mockProperties = [
     baños: 3,
     areaM2: 165,
     priceCOP: 560000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.16.16 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1200&q=60'
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const mockProperties = [
     baños: 1,
     areaM2: 55,
     priceCOP: 210000000,
-    image: 'WhatsApp Image 2026-06-23 at 5.11.45 PM.jpeg'
+    image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1200&q=60'
   }
 ];
 

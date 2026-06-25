@@ -1,5 +1,5 @@
 export function renderNosotros(root){
-  const img = 'WhatsApp Image 2026-06-23 at 5.04.19 PM.jpeg';
+  const img = 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=60';
   root.innerHTML = `
     <div class="container">
       <div class="section-title">Nosotros</div>
