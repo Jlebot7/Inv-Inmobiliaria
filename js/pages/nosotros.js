@@ -10,7 +10,7 @@ export function renderNosotros(root){
           <img src="${img}" alt="Equipo de trabajo" />
         </div>
         <div class="about-card card">
-          <div class="filter-title">INMOBILIARIA CÚCUTA</div>
+          <div class="filter-title">INMOBILIARIA CAMPUSLANDS</div>
           <div style="margin-top:10px; font-size:18px; font-weight:950;">Enfoque en decisiones seguras</div>
           <p class="hero-desc" style="margin-top:10px; font-size:14px;">
             Acompañamos desde la selección y evaluación hasta la inversión final, integrando análisis para reducir riesgos

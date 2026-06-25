@@ -27,10 +27,10 @@ export function renderContacto(root){
 
         <section class="card" style="padding:18px;">
           <div class="filter-title">Información</div>
-          <div style="margin-top:10px; color:var(--muted); font-size:14px; line-height:1.6;">
+<div style="margin-top:10px; color:var(--muted); font-size:14px; line-height:1.6;">
             <div><b style="color:var(--text);">Dirección:</b> Cúcuta, Norte de Santander</div>
             <div style="margin-top:8px;"><b style="color:var(--text);">WhatsApp:</b> +57 300 000 0000</div>
-            <div style="margin-top:8px;"><b style="color:var(--text);">Email:</b> contacto@inmobiliariacucuta.com</div>
+            <div style="margin-top:8px;"><b style="color:var(--text);">Email:</b> contacto@inmobiliariacampuslands.com</div>
           </div>
 
           <div style="margin-top:16px; padding-top:14px; border-top:1px solid rgba(255,255,255,.10);">
