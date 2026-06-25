@@ -2,7 +2,7 @@ export function renderMapa(root){
   root.innerHTML = `
     <div class="container">
       <div class="section-title">Mapa</div>
-      <p class="section-subtitle">Pines múltiples (placeholder sin API key) con popup dinámico al hacer clic.</p>
+      <p class="section-subtitle">Propiedades disponibles</p>
 
       <div class="card map-wrap">
         <div class="map-stage" id="mapStage" aria-label="Mapa">
