@@ -8,10 +8,7 @@ export function renderMapa(root){
         <div class="map-stage" id="mapStage" aria-label="Mapa">
 
 
-          <img
-            src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=60"
-            alt="Paisaje urbano"
-            style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.10; filter:saturate(1.1) contrast(1.05);" />
+
 
           <div class="map-gridlines" aria-hidden="true"></div>
           <div class="map-pins" id="mapPins" aria-hidden="false"></div>
